@@ -29,8 +29,21 @@ body {
 
 .grid-item {
   text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.grid-item:first {
-  border: 1px solid grey;
+.grid-item:first-of-type {
+  border-right: 1px solid grey;
+}
+
+.grid-item:last-of-type {
+  border-left: 1px solid grey;
+}
+
+.feed {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #fff;
+  margin-top: 15px;
 }
