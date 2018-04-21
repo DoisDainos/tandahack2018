@@ -2,6 +2,10 @@ body {
   background-color: #3b57c7;
 }
 
+.navbar-brand {
+  font-size: 14px;
+}
+
 .level-display {
   text-align: center;
   color: #fff;
